@@ -1,1 +1,9 @@
-/bin/
+target/
+bin/
+*.class
+*.log
+*.jar
+.idea/
+*.iml
+*.DS_Store
+
