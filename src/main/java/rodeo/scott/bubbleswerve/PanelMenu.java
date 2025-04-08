@@ -76,6 +76,7 @@ public class PanelMenu extends JPanel {
 
                 // Create a dialog box to show the about message
                 JOptionPane.showMessageDialog(null, label, "About", JOptionPane.INFORMATION_MESSAGE);
+                engine.getGame().resumeGame();
             });
 
 

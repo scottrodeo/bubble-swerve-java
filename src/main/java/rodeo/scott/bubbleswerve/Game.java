@@ -797,6 +797,10 @@ public class Game {
 	}
 
 
-	
+	void resumeGame() {
+	    isPaused = false;
+	    System.out.println("Game resumed."); // Optional log
+	    timerStart(); // Ensure the timer is running
+	}
 	
 }
